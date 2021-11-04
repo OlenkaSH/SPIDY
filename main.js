@@ -2,7 +2,7 @@ let playerImage;
 let playerX = 100;
 let playerY = 20;
 let flyImage;
-let fly = 20;
+let fly = [];
 let speed = 2;
 let backgroundImage;
 let spidernet1 = 150;
@@ -25,7 +25,6 @@ function preload() {
 
 function setup() {
 
-  console.log('setup')
   createCanvas(1000, 800);
 
  
